@@ -1,0 +1,8 @@
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Release\AspNet.Identity.MySQL.dll.config
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Release\AspNet.Identity.MySQL.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Release\AspNet.Identity.MySQL.pdb
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Release\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Release\MySql.Data.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Release\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\obj\Release\AspNet.Identity.MySQL.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\obj\Release\AspNet.Identity.MySQL.pdb

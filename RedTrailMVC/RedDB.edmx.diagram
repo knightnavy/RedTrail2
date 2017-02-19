@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2865ea5bf0b241e6817eb4f304427d79" Name="Diagram1">
+        <EntityTypeShape EntityType="RedTrailModel.RedLocation" Width="1.5" PointX="5.75" PointY="2" />
+        <EntityTypeShape EntityType="RedTrailModel.RedLoginHistory" Width="1.5" PointX="10.25" PointY="2.125" />
+        <EntityTypeShape EntityType="RedTrailModel.RedUser" Width="1.5" PointX="8" PointY="1" />
+        <EntityTypeShape EntityType="RedTrailModel.Role" Width="1.5" PointX="3" PointY="6.375" />
+        <EntityTypeShape EntityType="RedTrailModel.UserClaim" Width="1.5" PointX="3" PointY="3.75" />
+        <EntityTypeShape EntityType="RedTrailModel.UserLogin" Width="1.5" PointX="3" PointY="1.125" />
+        <EntityTypeShape EntityType="RedTrailModel.User" Width="1.5" PointX="0.75" PointY="2.625" />
+        <AssociationConnector Association="RedTrailModel.FK_Location" />
+        <AssociationConnector Association="RedTrailModel.FK_User" />
+        <AssociationConnector Association="RedTrailModel.ApplicationUser_Claims" />
+        <AssociationConnector Association="RedTrailModel.ApplicationUser_Logins" />
+        <AssociationConnector Association="RedTrailModel.UserRoles" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

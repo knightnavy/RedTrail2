@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RedTrailModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Location">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="City" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="ZoneName" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="CreatedAt" Type="timestamp" Precision="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="LoginHistory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="CreatedAt" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="DeviceId" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="FailedAttempt" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="PasswordHash" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Gender" Type="smallint" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Address1" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Address2" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="Age" Type="int" Nullable="false" />
+    <Property Name="ContactNo" Type="varchar" MaxLength="45" Nullable="false" />
+    <Property Name="BloodGroup" Type="int" Nullable="false" />
+    <Property Name="IsDonor" Type="bit" Nullable="false" />
+    <Property Name="Location" Type="int" Nullable="false" />
+    <Property Name="CreatedAt" Type="timestamp" Precision="0" />
+  </EntityType>
+  <Association Name="FK_Location">
+    <End Role="Location" Type="Self.Location" Multiplicity="1" />
+    <End Role="Users" Type="Self.Users" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Location">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Users">
+        <PropertyRef Name="Location" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_User">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="LoginHistory" Type="Self.LoginHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="LoginHistory">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RedTrailModelStoreContainer">
+    <EntitySet Name="Location" EntityType="Self.Location" Schema="RedTrail" store:Type="Tables" />
+    <EntitySet Name="LoginHistory" EntityType="Self.LoginHistory" Schema="RedTrail" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="RedTrail" store:Type="Tables" />
+    <AssociationSet Name="FK_Location" Association="Self.FK_Location">
+      <End Role="Location" EntitySet="Location" />
+      <End Role="Users" EntitySet="Users" />
+    </AssociationSet>
+    <AssociationSet Name="FK_User" Association="Self.FK_User">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="LoginHistory" EntitySet="LoginHistory" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

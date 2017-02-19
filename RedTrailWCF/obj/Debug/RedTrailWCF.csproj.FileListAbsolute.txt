@@ -1,0 +1,11 @@
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\RedTrailWCF\bin\Debug\RedTrailWCF.dll.config
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\RedTrailWCF\bin\Debug\RedTrailWCF.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\RedTrailWCF\bin\Debug\RedTrailWCF.pdb
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\RedTrailWCF\bin\Debug\EntityFramework.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\RedTrailWCF\bin\Debug\MySql.Data.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\RedTrailWCF\bin\Debug\EntityFramework.xml
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\RedTrailWCF\obj\Debug\RedTrailWCF.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\RedTrailWCF\obj\Debug\RedTrailWCF.pdb
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\RedTrailWCF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\RedTrailWCF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\RedTrailWCF\bin\Debug\MySql.Data.Entity.EF6.dll

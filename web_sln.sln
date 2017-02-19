@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "www", "..\RedBook\RedBook\www", "{1CDB38F6-5F9F-44A3-806B-5AA80A684702}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61416"
+		Debug.AspNetCompiler.PhysicalPath = "..\RedBook\RedBook\www\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61416\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61416"
+		Release.AspNetCompiler.PhysicalPath = "..\RedBook\RedBook\www\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61416\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61416"
+		SlnRelativePath = "..\RedBook\RedBook\www\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedTrailMVC", "RedTrailMVC\RedTrailMVC.csproj", "{FACF7AEC-0374-4174-9F00-BA339F5D4D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Identity.MySQL", "AspNet.Identity.MySQL\AspNet.Identity.MySQL.csproj", "{26F6ECF9-4369-417B-8CF2-54FA92DF3660}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ngboot-redtrail", "..\..\..\..\..\..\inetpub\wwwroot\ngboot-redtrail", "{89FC530D-847A-4E0C-BA9C-AC11F364E45A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv2.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54304"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\inetpub\wwwroot\ngboot-redtrail\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54304\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54304"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\inetpub\wwwroot\ngboot-redtrail\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54304\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54304"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CDB38F6-5F9F-44A3-806B-5AA80A684702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDB38F6-5F9F-44A3-806B-5AA80A684702}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDB38F6-5F9F-44A3-806B-5AA80A684702}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDB38F6-5F9F-44A3-806B-5AA80A684702}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FACF7AEC-0374-4174-9F00-BA339F5D4D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FACF7AEC-0374-4174-9F00-BA339F5D4D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FACF7AEC-0374-4174-9F00-BA339F5D4D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FACF7AEC-0374-4174-9F00-BA339F5D4D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F6ECF9-4369-417B-8CF2-54FA92DF3660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F6ECF9-4369-417B-8CF2-54FA92DF3660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F6ECF9-4369-417B-8CF2-54FA92DF3660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F6ECF9-4369-417B-8CF2-54FA92DF3660}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89FC530D-847A-4E0C-BA9C-AC11F364E45A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FC530D-847A-4E0C-BA9C-AC11F364E45A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89FC530D-847A-4E0C-BA9C-AC11F364E45A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{89FC530D-847A-4E0C-BA9C-AC11F364E45A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

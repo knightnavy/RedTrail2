@@ -1,0 +1,17 @@
+C:\Users\Naveen\Desktop\aspnet-3f34254d5ebec499ba8bc470544c7d401f379406\Samples\Identity\AspNet.Identity.MySQL\bin\Debug\AspNet.Identity.MySQL.dll.config
+C:\Users\Naveen\Desktop\aspnet-3f34254d5ebec499ba8bc470544c7d401f379406\Samples\Identity\AspNet.Identity.MySQL\bin\Debug\AspNet.Identity.MySQL.dll
+C:\Users\Naveen\Desktop\aspnet-3f34254d5ebec499ba8bc470544c7d401f379406\Samples\Identity\AspNet.Identity.MySQL\bin\Debug\AspNet.Identity.MySQL.pdb
+C:\Users\Naveen\Desktop\aspnet-3f34254d5ebec499ba8bc470544c7d401f379406\Samples\Identity\AspNet.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Naveen\Desktop\aspnet-3f34254d5ebec499ba8bc470544c7d401f379406\Samples\Identity\AspNet.Identity.MySQL\bin\Debug\MySql.Data.dll
+C:\Users\Naveen\Desktop\aspnet-3f34254d5ebec499ba8bc470544c7d401f379406\Samples\Identity\AspNet.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Naveen\Desktop\aspnet-3f34254d5ebec499ba8bc470544c7d401f379406\Samples\Identity\AspNet.Identity.MySQL\obj\Debug\AspNet.Identity.MySQL.csprojResolveAssemblyReference.cache
+C:\Users\Naveen\Desktop\aspnet-3f34254d5ebec499ba8bc470544c7d401f379406\Samples\Identity\AspNet.Identity.MySQL\obj\Debug\AspNet.Identity.MySQL.dll
+C:\Users\Naveen\Desktop\aspnet-3f34254d5ebec499ba8bc470544c7d401f379406\Samples\Identity\AspNet.Identity.MySQL\obj\Debug\AspNet.Identity.MySQL.pdb
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Debug\AspNet.Identity.MySQL.dll.config
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Debug\AspNet.Identity.MySQL.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Debug\AspNet.Identity.MySQL.pdb
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Debug\MySql.Data.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\obj\Debug\AspNet.Identity.MySQL.dll
+C:\Users\Naveen\Documents\Visual Studio 2015\Projects\www\AspNet.Identity.MySQL\obj\Debug\AspNet.Identity.MySQL.pdb
